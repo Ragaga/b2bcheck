@@ -1,0 +1,27 @@
+{
+  "name": "b2b/contrib",
+  "license": "proprietary",
+  "description": "Contrib library",
+  "authors": [
+    {
+      "name": "GC",
+      "email": "ragnarek45@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "B2B\\Contrib\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "B2B\\Contrib\\ServiceProvider"
+      ]
+    }
+  }
+}
+
